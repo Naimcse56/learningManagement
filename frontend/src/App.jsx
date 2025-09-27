@@ -5,10 +5,11 @@ import Courses from './components/pages/Courses'
 import Detail from './components/pages/Detail'
 import Login from './components/pages/Login'
 import Register from './components/pages/Register'
-import CoursesEnrolled from './components/pages/CoursesEnrolled'
+import MyLearning from './components/pages/account/MyLearning'
 import MyCourses from './components/pages/account/MyCourses'
 import WatchCourse from './components/pages/account/WatchCourse'
 import ChangePassword from './components/pages/account/ChangePassword'
+import Dashboard from './components/pages/account/Dashboard'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,8 +23,9 @@ function App() {
           <Route path='/detail' element={<Detail/>}/>
           <Route path='/account/login' element={<Login/>}/>
           <Route path='/account/register' element={<Register/>}/>
+          <Route path='/account/dashboard' element={<Dashboard/>}/>
           <Route path='/account/my-courses' element={<MyCourses/>}/>
-          <Route path='/account/courses-enrolled' element={<CoursesEnrolled/>}/>
+          <Route path='/account/my-learning' element={<MyLearning/>}/>
           <Route path='/account/watch-course' element={<WatchCourse/>}/>
           <Route path='/account/change-password' element={<ChangePassword/>}/>
         </Routes>

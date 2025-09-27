@@ -1,9 +1,9 @@
 import React from 'react'
-import UserSidebar from '../common/UserSidebar'
-import CourseEnrolled from '../common/CourseEnrolled'
-import Layout from '../common/Layout'
+import UserSidebar from '../../common/UserSidebar'
+import CourseEnrolled from '../../common/CourseEnrolled'
+import Layout from '../../common/Layout'
 
-const CoursesEnrolled = () => {
+const MyLearning = () => {
   return (
     <Layout>
     <section className='section-4'>
@@ -33,4 +33,4 @@ const CoursesEnrolled = () => {
   )
 }
 
-export default CoursesEnrolled
+export default MyLearning
